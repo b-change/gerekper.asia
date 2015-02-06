@@ -1,0 +1,15 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+  short:
+    label: Short
+    searchable: yes
+  url:
+    label: Target
+    searchable: yes
+  clicks:
+    label: Clicks
+  created_at:
+    label: Created

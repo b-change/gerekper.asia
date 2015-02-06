@@ -1,0 +1,17 @@
+# ===================================
+#  Column Definitions
+# ===================================
+columns:
+    name:
+      label: Name
+      searchable: true
+
+    description:
+      label: Description
+      searchable: true
+
+    permissions:
+      label: Permissions
+      relation: perms
+      select: @name
+      searchable: true

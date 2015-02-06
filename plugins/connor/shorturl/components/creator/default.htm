@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="col-md-offset-2 col-md-8">
+        <h3>Shorten a URL</h3>
+
+        <div id="shortUrl"></div>
+        <form
+            data-request="{{ __SELF__ }}::onCreate"
+            data-request-update="'{{ __SELF__ }}::shortUrl': '#shortUrl'"
+            data-request-error="">
+
+            <div class="form-group">
+                <label for="targetUrl">Target URL</label>
+                <input name="targetUrl" type="text" class="form-control" id="targetUrl" placeholder="http://example.com/">
+            </div>
+
+            <button type="submit" class="btn btn-default">Shorten URL</button>
+
+        </form>
+    </div>
+</div>

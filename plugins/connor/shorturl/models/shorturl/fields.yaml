@@ -1,0 +1,14 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+  short:
+    label: Short
+    span: auto
+  url:
+    label: Target
+    span: auto
+  clicks:
+    label: Clicks
+    size: small

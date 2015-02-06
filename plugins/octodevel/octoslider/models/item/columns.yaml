@@ -1,0 +1,17 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    title:
+        label: octodevel.octoslider::lang.models.item.columns.title
+        searchable: true
+
+    created_at:
+        label: octodevel.octoslider::lang.models.item.columns.created_at
+        type: datetime
+
+    updated_at:
+        label: octodevel.octoslider::lang.models.item.columns.updated_at
+        type: datetime

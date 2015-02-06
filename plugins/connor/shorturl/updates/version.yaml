@@ -1,0 +1,10 @@
+1.0.1:
+  - First version of ShortURL
+  - Create the ShortURLs table
+  - create_shorturls_table.php
+1.0.2:
+  - Changed settings icon for Manage
+  - Added statistics widget
+  - Create the Clicks table
+  - create_clicks_table.php
+  - Fixed an exception when entering an incorrect Short URL

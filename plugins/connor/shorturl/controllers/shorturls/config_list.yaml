@@ -1,0 +1,30 @@
+# ===================================
+#  List Behavior Config
+# ===================================
+
+# Model List Column configuration
+list: @/plugins/connor/shorturl/models/shorturl/columns.yaml
+
+# Model Class name
+modelClass: Connor\ShortURL\Models\ShortURL
+
+# List Title
+title: Manage Short URLs
+
+# Link URL for each record
+recordUrl: connor/shorturl/shorturls/update/:id
+
+# Message to display if the list is empty
+noRecordsMessage: backend::lang.list.no_records
+
+# Records to display per page
+recordsPerPage: 20
+
+# Toolbar widget configuration
+toolbar:
+    # Partial for toolbar buttons
+    buttons: list_toolbar
+
+    # Search widget configuration
+    search:
+        prompt: backend::lang.list.search_prompt

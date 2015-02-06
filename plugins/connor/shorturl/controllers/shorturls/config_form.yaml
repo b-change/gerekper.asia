@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: ShortURL
+
+# Model Form Field configuration
+form: @/plugins/connor/shorturl/models/shorturl/fields.yaml
+
+# Model Class name
+modelClass: Connor\ShortURL\Models\ShortURL
+
+# Default redirect location
+defaultRedirect: connor/shorturl/shorturls
+
+# Create page
+create:
+    title: Create Short URLs
+    redirect: connor/shorturl/shorturls/update/:id
+    redirectClose: connor/shorturl/shorturls
+
+# Update page
+update:
+    title: Edit Short URLs
+    redirect: connor/shorturl/shorturls
+    redirectClose: connor/shorturl/shorturls
+
+# Preview page
+preview:
+    title: Preview Short URLs

@@ -1,0 +1,13 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+  allow_info:
+    label: Allow .info Extension
+    commentAbove: Allow the use of /:shorturl.info to view statistics
+    type: dropdown
+    options:
+      anybody: Anybody
+      logged_in: Logged In
+      nobody: Nobody

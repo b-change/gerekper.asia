@@ -1,0 +1,27 @@
+<div class="report-widget">
+    <h3><?= e($this->property('title')) ?></h3>
+
+    <div class="scoreboard">
+        <div data-control="toolbar">
+
+            <?php if (!isset($error)): ?>
+            <div class="scoreboard-item control-chart" data-control="chart-pie">
+                <ul>
+                    <li data-color="#95b753"><?= e($this->property('thisMonthName')) ?> Total <span><?= e($this->property('thisMonth')) ?></span></li>
+                    <li data-color="#95b753"><?= e($this->property('thisMonthName')) ?> Top <span><?= e($this->property('top')) ?></span></li>
+                    <li data-color="#e5a91a"><?= e($this->property('lastMonthName')) ?> Total<span><?= e($this->property('lastMonth')) ?></span></li>
+                </ul>
+            </div>
+            <?php /*
+            <div class="scoreboard-item title-value">
+                <h4>Total</h4>
+                <p><?= e($this->property('total')) ?></p>
+                <p class="description">this month: <?= e($this->property('thisMonth')) ?></p>
+            </div>
+            */ ?>
+            <?php else: ?>
+            <p class="flash-message static warning"><?= e($error) ?></p>
+            <?php endif ?>
+        </div>
+    </div>
+</div>

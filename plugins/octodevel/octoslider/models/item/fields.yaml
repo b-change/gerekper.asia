@@ -1,0 +1,15 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+    title:
+        label: octodevel.octoslider::lang.models.item.fields.label.title
+
+    images:
+        label: octodevel.octoslider::lang.models.item.fields.label.images
+        type: fileupload
+        mode: image
+        image-width: 240
+        image-height: 110
