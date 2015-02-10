@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: robot
+
+# Model Form Field configuration
+form: $/devnull/helpers/models/robot/fields.yaml
+
+# Model Class name
+modelClass: Devnull\Helpers\Models\Robot
+
+# Default redirect location
+defaultRedirect: devnull/helpers/robots
+
+# Create page
+create:
+    title: Create robot
+    redirect: devnull/helpers/robots/update/:id
+    redirectClose: devnull/helpers/robots
+
+# Update page
+update:
+    title: Edit robot
+    redirect: devnull/helpers/robots
+    redirectClose: devnull/helpers/robots
+
+# Preview page
+preview:
+    title: Preview robot

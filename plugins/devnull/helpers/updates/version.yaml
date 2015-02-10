@@ -1,1 +1,6 @@
-1.0.1: First version of helpers
+1.0.1:
+  - First version of helpers
+  - Initialize devnull.helpers
+  - create_robots_table.php
+  - seed_robots_schema.php
+  - seed_robots_main.php
